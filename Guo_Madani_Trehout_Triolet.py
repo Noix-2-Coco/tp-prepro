@@ -47,7 +47,8 @@ def contenu_cellule(colonne, ligne, univers):
 
 
 def est_vivante(colonne, ligne, univers):
-    pass
+    return contenu_cellule(colonne, ligne, univers) == "*"
+
 
 
 def largeur(univers):
