@@ -35,7 +35,8 @@ def transforme_en_numeros(mot):
 
 
 def contenu_cellule(colonne, ligne, univers):
-    pass
+    return univers[ligne][colonne]
+
 
 
 def est_vivante(colonne, ligne, univers):
